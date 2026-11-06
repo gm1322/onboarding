@@ -1,0 +1,14 @@
+{
+  "name": "customer-onboarding",
+  "version": "1.0.0",
+  "description": "Customer onboarding app: registration completion via email link, dashboard, Skribble v2 e-signature process",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/*.test.js"
+  }
+}
